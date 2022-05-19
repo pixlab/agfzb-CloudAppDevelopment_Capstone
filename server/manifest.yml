@@ -1,11 +1,11 @@
   applications:
-  - name: pixrobi
+  - name: pixrobi798
     routes:
-      - route: pixrobi.eu-de.mybluemix.net 
+      - route: pixrobi798.eu-de.mybluemix.net 
     memory: 128M
     buildpack: python_buildpack
-  - name: pixrobi-nginx
+  - name: pixrobi798-nginx
     routes:
-      - route: pixrobi.eu-de.mybluemix.net/static
+      - route: pixrobi798.eu-de.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
